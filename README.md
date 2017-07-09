@@ -1,1 +1,4 @@
-### This is a readme about a project that I created
+# MTA Foot Traffic Analysis  
+During the first week of Metis' Data Science Bootcamp in Chicago, students were asked to use MTA turnstile data to provide a theoretical client with advice on how to optimize canvasser placement for an upcoming fundraiser they were hosting. This project was due 4 days after it was assigned and involved mostly exploritory data analysis. The MTA turnstile data does not provide a unique identifier for each turnstile so, in order to figure out the daily foot traffic by station, feature combinations that served as a proxy for turnstile identification were used. After this, corrupted data was sought out and removed and foot traffic was averaged.  
+  
+This was a team assignment where I worked with one other student. We decided to look at differences in foot traffic between weekdays and weekends with the assumption that movement behaviors would be different between these times. In the end we found a list of the top ten stations for foot traffic and provided separate recommendations based on whether or not the canvassing would take place on the weekend.
